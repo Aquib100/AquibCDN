@@ -66,3 +66,7 @@ scope.addEventListener("click", (e) => {
 		contextMenu.classList.remove("visible");
 	}
 });
+
+function dismiss(){
+  contextMenu.classList.remove("visible");
+}
